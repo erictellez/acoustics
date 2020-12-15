@@ -1,0 +1,8 @@
+% Programa para leer archivos que se han grabado con windows
+
+function leerarchivowav(nomarch,fssal)
+[y,fs]=wavread(nomarch);
+l=length(y);
+t=0:1/fs:l/fs;
+plot(t,y)
+sound(y,fssal)

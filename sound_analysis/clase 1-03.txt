@@ -1,0 +1,12 @@
+
+Ejercicio para la clase de 1 de febrero
+  Sumar y1+y2+y3    	ya
+  Restar y1-y2      	ya
+  Cambiar fase		ya
+  Amplitud		ya
+  Multiplicar yexp(at)
+  Multiplicar yexp(-at)
+
+^2
+
+Sumas de Fourier 

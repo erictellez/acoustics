@@ -1,0 +1,9 @@
+funcion save
+
+Sintaxis   save nombre archivo -ascii
+
+guarda un archivo en .dat con -ascii o en .mat sin -ascii
+
+por ejemplo se genera la funcion y=sin(wt)
+
+save tono1 y -ascii

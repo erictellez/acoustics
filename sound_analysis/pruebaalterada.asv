@@ -1,0 +1,21 @@
+%Programa para la conversion de un archivo de formato wav a formato ascii,
+%despues se carga el archivo a matlab y finalmente se reproduce dicho
+%archivo
+
+clear
+[y,fs]=wavread('prueba',22050);
+save prueba y -ascii
+load prueba;
+sound(prueba,22050)  % el numero es la frecuencia de muestreo
+
+%Lo que sigue son adiciones al programa para manipular los datos de forma
+%eficiente
+p=prueba;
+L=length(prueba);
+
+for k=1:l+k
+for i=1:2:L-k
+    p(i,:)=[];
+end
+end
+sound(p,22050)

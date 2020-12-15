@@ -1,0 +1,17 @@
+% Programa para la suma de una funcion particular que es la suma infinita
+% de senos lo que da como resultado la funcion cuadrada.
+
+clear
+  
+    t=0:0.0001:1;
+    w=100;
+    y=zeros(size(t));
+for k=1:5
+    for i=1:k
+        y=(((-1)^(i+1))/(2*i-1))*cos((2*i-1)*w*t)+y;  
+    end
+    yf=4/pi*y;
+    figure
+    plot(t,yf)
+    sound(yf,10000)
+end    
